@@ -75,7 +75,7 @@ You’re probably aware that responsive design is critical for websites and web 
 Enter your summary below.
 
 ```
-When you’ve done this task, edit this markdown file and give me a summary of your changes, challenges experienced and any other findings here.
+I improved the mobile responsiveness by adjusting the header and footer layout using TailwindCSS. Fixed inconsistent spacing issues and ensured proper alignment on different screen sizes. The main challenge was handling some overlapping elements on smaller screens, which I resolved by tweaking flex properties.
 ```
 
 ### 2. Search Performance ⚡
@@ -91,7 +91,7 @@ We don’t want to execute searching on every keystroke. Maybe you can incorpora
 Enter your summary below.
 
 ```
-When you’ve done this task, edit this markdown file and give me a summary of your changes, challenges experienced and any other findings here.
+I optimized the search functionality by implementing a debounce mechanism, ensuring the API call only triggers when the user stops typing instead of on every keystroke. This significantly reduced unnecessary network requests and improved user experience on slower connections. The main challenge was handling cases where users type quickly, which was resolved using an appropriate delay for debouncing.
 ```
 
 ### 3. Forms
@@ -103,7 +103,7 @@ A form needs to be been setup to request new books to be added to the OpenLibrar
 Enter your summary below.
 
 ```
-When you’ve done this task, edit this markdown file and give me a summary of your changes, challenges experienced and any other findings here.
+I created a form to request new books, allowing users to submit a book title and author. The API endpoint /api/request was implemented to save the data into the database, ensuring duplicate entries are not inserted. The main challenge was handling validation and ensuring error messages were informative.
 ```
 
 ### 4. Roast
@@ -115,7 +115,10 @@ Here’s an opportunity for you to roast Winnie. You might have spotted some red
 Enter your roast below.
 
 ```
-Tell me what we’re doing wrong. Think along the lines of formatting, our deployment processes or even SEO. Be brutal.
+The search functionality was inefficient, making excessive API calls.
+Lack of proper mobile responsiveness affected usability.
+The form implementation was incomplete, requiring additional validation.
+Possible SEO improvements by optimizing metadata and structured data.
 ```
 
 ## 📧 Submission
